@@ -1,0 +1,12 @@
+if score_value>=100 and score_value<200:
+               token_value +=15
+            elif score_value>=200 and score_value<300:
+                token_value +=15
+            elif score_value>=300 and score_value<400:
+                token_value +=15
+            elif score_value>=400 and score_value<500:
+                token_value +=15
+            elif score_value>=500 and score_value<600:
+                token_value =token_value+15+20*1   
+            else:
+                token_value+=15
